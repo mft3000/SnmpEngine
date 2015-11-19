@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-##################### ver 3.1
+##################### ver 3.2
 #
 # Macos
 #
@@ -30,7 +30,7 @@
 #
 #####################
 
-import os, argparse, json, collections, time, re
+import os, argparse, json, collections, time, re, logging
 
 
 from snimpy.manager import Manager as M
@@ -71,6 +71,12 @@ def convertMac(octet):
 def convertIP(octet):
 	ip = [str(int(binascii.b2a_hex(x),16)) for x in list(octet)]
 	return ".".join(ip)
+
+# ++++++++++++++++++++
+import logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+# --------------------	
 
 ############## Load MIBs
 
