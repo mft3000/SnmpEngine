@@ -21,8 +21,8 @@ setup(
     description = 'Python Lib to interact with network devices using snmp',
     author = 'Francesco Marangione',
     author_email = 'mft@mftnet.com',
-    url = 'https://github.com/mft3000/SnmpEngine', # use the URL to the github repo
-    download_url = 'https://github.com/mft3000/SnmpEngine/tarball/%s' % version,
+    url = 'https://github.com/mft3000/snmpEngine', # use the URL to the github repo
+    download_url = 'https://github.com/mft3000/snmpEngine/tarball/%s' % version,
     keywords = ['snmp', 'Cisco', 'networking'],
     classifiers = [],
 )
