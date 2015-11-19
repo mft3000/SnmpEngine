@@ -10,3 +10,4 @@ ipcalc
 termcolor
 texttable
 netaddr
+logging
